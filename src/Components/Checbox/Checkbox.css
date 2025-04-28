@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  margin-top: 10px;
+}
+
+.label-checkbox-css {
+  margin-right: 10px;
+}
+
+.checkbox-p-css {
+  color: #7a7878;
+}
