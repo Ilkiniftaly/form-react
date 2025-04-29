@@ -13,21 +13,21 @@ import Radio from "../Radio/Radio";
 
 function Form() {
   const [nameValue, setNameValue] = useState("");
-  const [errorName, setErrorName] = useState("false");
+  const [errorName, setErrorName] = useState(false);
 
   const [emailValue, setEmailValue] = useState("");
-  const [errorEmail, setErrorEmail] = useState("false");
+  const [errorEmail, setErrorEmail] = useState(false);
 
   const [textareaValue, setTextareaValue] = useState("");
 
   const [selectedValue, setSelectedValue] = useState("");
-  const [errorSelectedValue, setErrorSelectedValue] = useState("false");
+  const [errorSelectedValue, setErrorSelectedValue] = useState(false);
 
   const [gpaValue, setGpaValue] = useState("");
-  const [errorGpaValue, setErrorGpaValue] = useState("false");
+  const [errorGpaValue, setErrorGpaValue] = useState(false);
 
   const [dataDateValue, setDataDateValue] = useState("");
-  const [errorDataDateValue, setErrorDataDateValue] = useState("false");
+  const [errorDataDateValue, setErrorDataDateValue] = useState(false);
 
   const [checkboxChange, setCheckboxChange] = useState({
     Surfing: false,
@@ -37,7 +37,7 @@ function Form() {
   });
 
   const [radioValue, setRadioValue] = useState(false);
-  const [errorRadioValue, setErrorRadioValue] = useState("false");
+  const [errorRadioValue, setErrorRadioValue] = useState(false);
 
   const handleName = (e) => {
     const value = e.target.value;
